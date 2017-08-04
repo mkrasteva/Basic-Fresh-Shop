@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic Shop</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/shopscipt.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Fresh Drinks</h1>
+      <div class="mobile-nav-toggle-container">
+        <span class="hamburger">&#9776;</span>
+        <span class="cross">X</span>
+      </div>
+    </header>
+
+    <nav>
+
+      <ul class="menu">
+        <li class="currentChosen"><a href = "#">My Fruit Juices</a></li>
+        <li><a href = "https://www.linkedin.com/in/mirelakrusteva/" target = "_blank">Visit Me</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <div role="banner" class="banner">
+        <img src="images/trees-and-shoreline.jpg" alt="Sea Shore" />
+      </div>
+
+      <div id="productsShopArea">
+        
+        <div id="searchCriteria">
+
+          <fieldset>
+            <legend>Please, select size:</legend>
+            <input type="checkbox" name="size" value="300 ml" checked="checked"/>300 ml juice<br />
+            <input type="checkbox" name="size" value="500 ml" checked="checked" />500 ml juice<br />
+            <input type="checkbox" name="size" value="800 ml" checked="checked" />800 ml juice<br />
+          </fieldset>
+
+          <p>
+            <label for="amount">Price range:</label>
+            <input type="text" id="amount" readonly>
+          </p>
+          <div id="slider-range"></div>
+
+        </div>
+
+        <div id="products">
+          <span>Please, select your search criterias.</span>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer>
+      <div class='poweredBy'>This page is powered by ...</div>
+      <div class='copyright'>Copyright: Fresh Drinks, Ltd.</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #e2f1fb;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #21a5d0;
+  color: #ffffff;
+  margin: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 0px 14px 1px rgba(26, 58, 153, 0.34);
+  -moz-box-shadow: 2px 0px 14px 1px rgba(26, 58, 153, 0.34);
+  box-shadow: 2px 0px 14px 1px rgba(26, 58, 153, 0.34);
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer {
+  background-color: #21a5d0;
+  color: #ffffff;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.menu {
+  display: -webkit-box;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  padding: 0 0 15px 0;
+}
+
+.menu li {
+  list-style: none;
+  -webkit-flex: 1;
+  /* Safari 6.1+ */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  text-align: center;
+  margin: 1px;
+  color: #21a5d0;
+  font-size: 16px;
+  padding: 8px 10px;
+  width: auto;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+.menu .currentChosen {
+  background-color: #ffffff;
+  color: #21a5d0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hamburger,
+.cross {
+  display: none;
+}
+
+.mobile-nav-toggle-container {
+  position: fixed;
+  right: 10px;
+  top: 30px;
+}
+
+main {
+  min-height: 90vh;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 100vw;
+}
+
+#productsShopArea {
+  display: flex;
+}
+
+#searchCriteria {
+  width: 200px;
+}
+
+#searchCriteria fieldset {
+  border: 0;
+  font-size: 16px;
+  color: #21a5d0;
+  margin-top: 50px;
+}
+
+#searchCriteria p {
+  padding-left: 12px;
+}
+
+#amount {
+  border: 0;
+  background-color: transparent;
+  color: #20b2aa;
+}
+
+#searchCriteria div {
+  margin-left: 12px;
+  width: 120px;
+  padding: 0;
+}
+
+#products {
+  display: inline;
+  margin: auto;
+  min-width: 400px;
+  max-width: 750px;
+}
+
+#products>div {
+  min-width: : 300px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.productPrice {
+  font-style: italic;
+  color: #21a5d0;
+}
+
+#products>div>img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  header {
+    width: 50%;
+    border-radius: 0 0 10px 0;
+  }
+  .menu {
+    display: none;
+  }
+  .menu.toggled {
+    display: block;
+  }
+  .hamburger,
+  .cross {
+    display: block;
+    color: #21a5d0;
+    float: right;
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .poweredBy {
+    display: none;
+  }
+  #products {
+    width: 100%;
+  }
+  #products>div {
+    width: 25%;
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "picture": "4_fresh_image_1.jpg",
+    "title": "Pear Fresh",
+    "size": "300 ml",
+    "price": 2
+  },
+  {
+    "id": 2,
+    "picture": "16_image_1.jpg",
+    "title": "Orange Fresh",
+    "size": "500 ml",
+    "price": 3
+  },
+  {
+    "id": 3,
+    "picture": "12_fresh_image_1.jpg",
+    "title": "Peach Fresh",
+    "size": "500 ml",
+    "price": 4
+  },
+  {
+    "id": 4,
+    "picture": "3_fresh_image_1.jpg",
+    "title": "Apricot Fresh",
+    "size": "800 ml",
+    "price": 5
+  },
+  {
+    "id": 5,
+    "picture": "10_fresh_image_1.jpg",
+    "title": "Apple Fresh",
+    "size": "800 ml",
+    "price": 6
+  }
+]
